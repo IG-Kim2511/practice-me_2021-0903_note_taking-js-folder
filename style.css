@@ -85,3 +85,43 @@ li{
         top: -8rem;
         transform: translateX(-50%);
     }
+    .logo_empty{
+        margin-top: 10rem;
+    }
+    .logo h1{
+        display: flex;
+    }
+
+    .logo h1 span{
+        font-size: 2rem;
+
+        font-weight: 900;
+        color: violet;
+        text-transform: uppercase;
+        margin: .5rem;
+        border-radius: 50%;
+        background-color: lightpink;
+        
+    }
+
+    .logo h1 span:nth-child(1){
+        animation: drop-letters 12s 1s infinite;
+    }
+    .logo h1 span:nth-child(2){
+        animation: drop-letters 12s 2s infinite;
+    }
+    .logo h1 span:nth-child(3){
+        animation: drop-letters 12s 3s infinite;
+    }
+    .logo h1 span:nth-child(4){
+        animation: drop-letters 12s 5s infinite;
+    }
+    .logo h1 span:nth-child(5){
+        animation: drop-letters 12s 6s infinite;
+    }
+
+    @keyframes drop-letters{
+        50%{
+            transform: translateY(-50%);
+        }
+    }
