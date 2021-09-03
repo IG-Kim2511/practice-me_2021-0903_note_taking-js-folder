@@ -125,3 +125,61 @@ li{
             transform: translateY(-50%);
         }
     }
+
+    .whole-container{
+        background-color: lightgreen;
+        border: 1px solid blue;
+    }
+
+    .title_input{
+        height: 3rem;
+    }
+
+    .note_alert{
+        color: red;
+    }
+
+    /* 🍀modal */
+
+    .modal_detail_container{
+        position: absolute;
+        background-color: yellow;
+
+    left: 0;
+    bottom: 0;
+    display: block;
+    margin: auto;
+
+    /*  */
+    height: auto;
+    width: 30rem;
+    
+
+    border: 1px solid red;
+
+    /* js */
+    z-index: -1;
+    opacity: 0;
+    }
+
+    /* js 6  */
+
+    .modal_show{
+        z-index: 2 !important;
+        opacity: 1 !important;
+        left: 16rem;
+        bottom: 2rem;
+    }
+
+    .modal_delete{
+        margin-bottom: 1rem;
+        margin-left: 23rem;
+    }
+
+@media  (max-widht:770px){
+    .modal_detail_container{
+        left: 0;
+        bottom: 0;
+    }
+    
+}
