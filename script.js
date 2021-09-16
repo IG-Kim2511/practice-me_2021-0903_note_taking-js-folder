@@ -124,6 +124,7 @@ function addNoteToList(a_newNote) {
 
 
 function activeModal(a_newNote) {
+    document.querySelector('.modal_title').innerHTML=`${a_newNote.title}`;
     
 }
 
